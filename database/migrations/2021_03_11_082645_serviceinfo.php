@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class HomePortinfo extends Migration
+class Serviceinfo extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class HomePortinfo extends Migration
      */
     public function up()
     {
-        Schema::create('home_portinfo', function (Blueprint $table){
+        Schema::create('serviceinfo', function (Blueprint $table){
             $table->id();
             $table->string('title');
             $table->string('sub_title');
